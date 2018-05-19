@@ -1,0 +1,421 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#011828"
+
+
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#e2e6e7"
+
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:orientation="horizontal">
+
+
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="6dp"
+                    android:id="@+id/et_address"
+                    android:inputType="text"
+                    android:layout_marginTop="1dp"
+                    android:hint="Address"
+                    android:textColorHint="#000000"
+                    android:textColor="#000000"
+                    android:background="@android:color/transparent" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:layout_marginTop="16dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#e2e6e7"
+
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:orientation="horizontal">
+
+
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="6dp"
+                    android:id="@+id/et_dob"
+                    android:inputType="text"
+                    android:editable="false"
+                    android:layout_marginTop="1dp"
+                    android:hint="Date of Birth"
+                    android:textColorHint="#000000"
+                    android:textColor="#000000"
+                    android:background="@android:color/transparent" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="4dp"
+                    android:id="@+id/img_date"
+                    android:src="@drawable/calen"
+                     />
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:layout_marginTop="16dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#e2e6e7"
+
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:orientation="horizontal">
+
+
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="6dp"
+                    android:id="@+id/et_phnNumber"
+                    android:inputType="phone"
+                    android:layout_marginTop="1dp"
+                    android:hint="Phone Number"
+                    android:textColorHint="#000000"
+                    android:textColor="#000000"
+                    android:background="@android:color/transparent" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:layout_marginTop="16dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#e2e6e7"
+
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:orientation="horizontal">
+
+
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="6dp"
+                    android:id="@+id/et_province"
+                    android:inputType="text"
+                    android:layout_marginTop="1dp"
+                    android:hint="Province"
+                    android:textColorHint="#000000"
+                    android:textColor="#000000"
+                    android:background="@android:color/transparent" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:layout_marginTop="16dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#e2e6e7"
+
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:orientation="horizontal">
+
+
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="6dp"
+                    android:layout_weight="1"
+                    android:id="@+id/et_cnic"
+                    android:inputType="textEmailAddress"
+                    android:layout_marginTop="1dp"
+                    android:hint="Cnic Picture"
+                    android:textColorHint="#000000"
+                    android:textColor="#000000"
+                    android:background="@android:color/transparent" />
+
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="4dp"
+                    android:id="@+id/img_cnic"
+
+                    android:backgroundTint="@android:color/white"
+                    android:src="@drawable/galery" />
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:layout_marginTop="16dp"
+
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#e2e6e7"
+
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:orientation="horizontal">
+
+
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="6dp"
+                    android:id="@+id/et_passPicture"
+                    android:inputType="text"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:hint="Passport picture"
+                    android:textColorHint="#000000"
+                    android:textColor="#000000"
+                    android:background="@android:color/transparent" />
+
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="4dp"
+                    android:id="@+id/img_passport"
+                    android:src="@drawable/galery"
+                    />
+
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="24dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+
+            android:orientation="horizontal">
+
+
+
+            <RadioGroup
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/radio_group"
+                android:layout_weight="1">
+
+                <RadioButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:checked="true"
+
+
+                    android:id="@+id/rd_male"
+                    android:textColor="#ffffff"
+                    android:buttonTint="#f8c212"
+
+
+                    android:text="Male"/>
+
+                <RadioButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+
+                    android:layout_weight="0.5"
+                    android:id="@+id/rd_female"
+
+
+
+                    android:textColor="#ffffff"
+                    android:buttonTint="#ffffff"
+                    android:text="Female"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+
+
+            >
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="HAJJ REGISTRATION"
+                android:id="@+id/btn_registerHajj"
+                android:layout_marginTop="8dp"
+                android:background="#ff8d08"
+
+                android:textAllCaps="false"
+                android:textColor="#e2e6e7"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
