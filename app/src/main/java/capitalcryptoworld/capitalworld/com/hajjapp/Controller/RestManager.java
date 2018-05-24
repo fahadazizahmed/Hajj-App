@@ -5,7 +5,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 /**
- * Created by Fahad Aziz on 16/05/2018.
+ * Created by Qasid Labeed on 16/05/2018.
  */
 
 public class RestManager {

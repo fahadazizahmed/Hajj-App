@@ -3,6 +3,8 @@ package capitalcryptoworld.capitalworld.com.hajjapp.ApiInterface;
 import capitalcryptoworld.capitalworld.com.hajjapp.Model.AuthToken;
 import capitalcryptoworld.capitalworld.com.hajjapp.Model.HajjRegisterResponse;
 import capitalcryptoworld.capitalworld.com.hajjapp.Model.LoginModel;
+import capitalcryptoworld.capitalworld.com.hajjapp.Model.OperatorRegister;
+import capitalcryptoworld.capitalworld.com.hajjapp.Model.OperatorRegisterResponse;
 import capitalcryptoworld.capitalworld.com.hajjapp.Model.RegisteHajjUser;
 import capitalcryptoworld.capitalworld.com.hajjapp.Model.Register;
 import capitalcryptoworld.capitalworld.com.hajjapp.Model.RegisterResponse;
@@ -28,4 +30,11 @@ Call<RegisterResponse> sendUser(@Body Register register);
     Call<HajjRegisterResponse> registerHajjUser(@Header("Authorization") String authorization, @Body RegisteHajjUser registeHajjUser);
 
 
+    /**
+     * @param operatorRegister
+     * @return
+     */
+//Call Operator Service
+@POST("services/app/OperatorService/Create")
+Call<OperatorRegisterResponse> CreateOperator(@Body OperatorRegister operatorRegister);
 }
