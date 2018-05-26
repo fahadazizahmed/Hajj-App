@@ -9,6 +9,9 @@
 
     android:orientation="vertical">
 
+
+
+
 <TextView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -17,6 +20,25 @@
     android:textStyle="bold"
     android:textSize="24sp"
     android:text="User Complaint"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:background="@android:color/white"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/et_title"
+            android:padding="8dp"
+            android:background="@android:color/transparent"
+
+            />
+
+    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -62,9 +84,9 @@
         android:background="@android:color/white">
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:padding="8dp"
-            android:id="@+id/detail"
+            android:id="@+id/et_detail"
             android:inputType="text"
             android:background="@android:color/transparent"/>
     </LinearLayout>
@@ -78,6 +100,7 @@
         android:layout_marginRight="16dp"
 
 
+
         android:orientation="horizontal"
 
         android:gravity="center"
@@ -87,9 +110,10 @@
         >
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:gravity="center"
             android:textSize="20sp"
+
             android:textColor="@android:color/black"
             android:text="Submit"/>
 
